@@ -1,0 +1,71 @@
+html{
+	width: 100%;
+	height: 100%;
+	overflow: hidden;
+	position: fixed;
+}
+body{
+	width: 100%;
+	height: 100%;
+}
+#header{
+	width: 100%;
+	height: 100px;
+	background-color: grey;
+	margin-bottom: 5%;
+	text-align: center;
+	font-size: 400%;
+}
+#header a{
+	font-size: 25%;
+	text-align: right;
+	position: absolute;
+	margin: 0;
+	padding: 0;
+	right: 1%;
+}
+#header form{
+	text-align: right;
+	position: absolute;
+	margin: 0;
+	padding: 0;
+	right: 1%;
+	top: 40px;
+}
+#containter{
+	vertical-align: top;
+	width:50%;
+	height: 75%;
+	margin-left:auto;
+	margin-right:auto;
+	text-align:center;
+	border-style: double;
+	border-width: 2px;
+	overflow-y: scroll;
+}
+.cd{
+	vertical-align: top;
+	display: inline-block;
+	width:25%;
+	height:auto;
+	margin:0px;
+	padding:0;
+}
+.cd2{
+	vertical-align: top;
+	display: inline-block;
+	width:100%;
+	height:auto;
+	margin:0px;
+	padding:0;
+}
+.cd:not(form):hover span{
+	height: 100px;
+}
+span{
+	word-wrap: break-word;
+	display: block;
+	height: 0;
+	overflow-y: scroll;
+	transition: all 2s ease-in-out;
+}
